@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shagun-capital';
+  flag:boolean=false;
+  onSubmit(){
+    this.flag=false;
+  }
 }
