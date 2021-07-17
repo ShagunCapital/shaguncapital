@@ -59,6 +59,17 @@ import { KnowledgeComponent } from './MyComponents/knowledge/knowledge.component
 import { DownloadsComponent } from './MyComponents/downloads/downloads.component';
 import { BlogComponent } from './MyComponents/blog/blog.component';
 import { ContactusComponent } from './MyComponents/contactus/contactus.component';
+import { AboutusComponent } from './MyComponents/aboutus/aboutus.component';
+import { CareersComponent } from './MyComponents/careers/careers.component';
+import { TcComponent } from './MyComponents/tc/tc.component';
+import { PrivacypolicyComponent } from './MyComponents/privacypolicy/privacypolicy.component';
+import { FaqComponent } from './MyComponents/faq/faq.component';
+import { ClaimIntimationComponent } from './MyComponents/claim-intimation/claim-intimation.component';
+import { SipcalcComponent } from './MyComponents/sipcalc/sipcalc.component';
+import { GoalsipcalcComponent } from './MyComponents/goalsipcalc/goalsipcalc.component';
+import { InsurancecalcComponent } from './MyComponents/insurancecalc/insurancecalc.component';
+import { InflationcalcComponent } from './MyComponents/inflationcalc/inflationcalc.component';
+import { IncometaxcalcComponent } from './MyComponents/incometaxcalc/incometaxcalc.component';
 
 @NgModule({
   declarations: [
@@ -118,7 +129,18 @@ import { ContactusComponent } from './MyComponents/contactus/contactus.component
     KnowledgeComponent,
     DownloadsComponent,
     BlogComponent,
-    ContactusComponent
+    ContactusComponent,
+    AboutusComponent,
+    CareersComponent,
+    TcComponent,
+    PrivacypolicyComponent,
+    FaqComponent,
+    ClaimIntimationComponent,
+    SipcalcComponent,
+    GoalsipcalcComponent,
+    InsurancecalcComponent,
+    InflationcalcComponent,
+    IncometaxcalcComponent
   ],
   imports: [
     BrowserModule,

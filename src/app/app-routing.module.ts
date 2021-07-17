@@ -56,8 +56,24 @@ import { KnowledgeComponent } from './MyComponents/knowledge/knowledge.component
 import { DownloadsComponent } from './MyComponents/downloads/downloads.component';
 import { BlogComponent } from './MyComponents/blog/blog.component';
 import { ContactusComponent } from './MyComponents/contactus/contactus.component';
+import { AboutusComponent } from './MyComponents/aboutus/aboutus.component';
+import { CareersComponent } from './MyComponents/careers/careers.component';
+import { TcComponent } from './MyComponents/tc/tc.component';
+import { PrivacypolicyComponent } from './MyComponents/privacypolicy/privacypolicy.component';
+import { FaqComponent } from './MyComponents/faq/faq.component';
+import { ClaimIntimationComponent } from './MyComponents/claim-intimation/claim-intimation.component';
+import { SipcalcComponent } from './MyComponents/sipcalc/sipcalc.component';
+import { GoalsipcalcComponent } from './MyComponents/goalsipcalc/goalsipcalc.component';
+import { InsurancecalcComponent } from './MyComponents/insurancecalc/insurancecalc.component';
+import { InflationcalcComponent } from './MyComponents/inflationcalc/inflationcalc.component';
+import { IncometaxcalcComponent } from './MyComponents/incometaxcalc/incometaxcalc.component';
 
 const routes: Routes = [
+  {
+    path: "",
+    redirectTo: "home",
+    pathMatch: "full",
+  },
   { path: 'home', component: HeaderComponent },
   { path: 'sip', component: SipComponent },
   { path: 'bluechip', component: BluechipComponent },
@@ -114,7 +130,17 @@ const routes: Routes = [
   { path: 'downloads', component: DownloadsComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'contactus', component: ContactusComponent },
-
+  { path: 'aboutus', component: AboutusComponent },
+  { path: 'careers', component: CareersComponent },
+  { path: 'tc', component: TcComponent },
+  { path: 'privacypolicy', component: PrivacypolicyComponent },
+  { path: 'faq', component: FaqComponent },
+  { path: 'claim-intimation', component: ClaimIntimationComponent },
+  { path: 'sipcalc', component: SipcalcComponent },
+  { path: 'goalsipcalc', component: GoalsipcalcComponent },
+  { path: 'insurancecalc', component: InsurancecalcComponent },
+  { path: 'inflationcalc', component: InflationcalcComponent },
+  { path: 'incometaxcalc', component: IncometaxcalcComponent },
 ];
 
 @NgModule({
