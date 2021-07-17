@@ -59,6 +59,7 @@ import { KnowledgeComponent } from './MyComponents/knowledge/knowledge.component
 import { DownloadsComponent } from './MyComponents/downloads/downloads.component';
 import { BlogComponent } from './MyComponents/blog/blog.component';
 import { ContactusComponent } from './MyComponents/contactus/contactus.component';
+<<<<<<< HEAD
 import { AboutusComponent } from './MyComponents/aboutus/aboutus.component';
 import { CareersComponent } from './MyComponents/careers/careers.component';
 import { TcComponent } from './MyComponents/tc/tc.component';
@@ -70,6 +71,9 @@ import { GoalsipcalcComponent } from './MyComponents/goalsipcalc/goalsipcalc.com
 import { InsurancecalcComponent } from './MyComponents/insurancecalc/insurancecalc.component';
 import { InflationcalcComponent } from './MyComponents/inflationcalc/inflationcalc.component';
 import { IncometaxcalcComponent } from './MyComponents/incometaxcalc/incometaxcalc.component';
+=======
+import { FooterComponent } from './MyComponents/footer/footer.component';
+>>>>>>> 91b15d7543d4a3de9474c6ad557a8978b5872a1b
 
 @NgModule({
   declarations: [
@@ -130,6 +134,7 @@ import { IncometaxcalcComponent } from './MyComponents/incometaxcalc/incometaxca
     DownloadsComponent,
     BlogComponent,
     ContactusComponent,
+<<<<<<< HEAD
     AboutusComponent,
     CareersComponent,
     TcComponent,
@@ -141,6 +146,9 @@ import { IncometaxcalcComponent } from './MyComponents/incometaxcalc/incometaxca
     InsurancecalcComponent,
     InflationcalcComponent,
     IncometaxcalcComponent
+=======
+    FooterComponent
+>>>>>>> 91b15d7543d4a3de9474c6ad557a8978b5872a1b
   ],
   imports: [
     BrowserModule,

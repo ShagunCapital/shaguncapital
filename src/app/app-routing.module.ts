@@ -70,8 +70,13 @@ import { IncometaxcalcComponent } from './MyComponents/incometaxcalc/incometaxca
 
 const routes: Routes = [
   {
+<<<<<<< HEAD
     path: "",
     redirectTo: "home",
+=======
+    path:"**",
+    redirectTo : "home",
+>>>>>>> 91b15d7543d4a3de9474c6ad557a8978b5872a1b
     pathMatch: "full",
   },
   { path: 'home', component: HeaderComponent },

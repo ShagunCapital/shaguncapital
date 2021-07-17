@@ -1,7 +1,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <div class="p-0 m-0">
   <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 w-100 m-0">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">ShagunCapital</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,14 +21,14 @@
           </div>
         </nav>
   </div>
-  <div class="banner-area">
-    <div class="row">
+  <div class="banner-area p-0 m-0 container-fluid">
+    <div class="row  w-100">
       <div class="col-12">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-    
+
                 <li class="nav-item">
                   <a class="nav-link" routerLink="home">Home</a>
                 </li>
@@ -91,7 +92,7 @@
                     </div>
                   </ul>
                 </li>
-  
+
                 <li class="nav-item dropdown menu-area">
                   <a class="nav-link dropdown-toggle" href="#" id="mega-two" role="button" data-bs-toggle="dropdown" aria-expanded="false" (click)="onSubmit()">
                     Solutions
@@ -133,7 +134,7 @@
                     </div>
                   </ul>
                 </li>
-  
+
                 <li class="nav-item dropdown menu-area">
                   <a class="nav-link dropdown-toggle" href="#" id="mega-three" role="button" data-bs-toggle="dropdown" aria-expanded="false" (click)="onSubmit()">
                     Services
@@ -171,38 +172,39 @@
                     </div>
                   </ul>
                 </li>
-  
+
                 <li class="nav-item">
                   <a class="nav-link" routerLink='knowledge' (click)="onSubmit()">Knowledge Center</a>
                 </li>
-  
+
                 <li class="nav-item">
                   <a class="nav-link" routerLink='downloads' (click)="onSubmit()">Downloads</a>
                 </li>
-                
+
                 <li class="nav-item">
                   <a class="nav-link" routerLink='blog' (click)="onSubmit()">Blog</a>
                 </li>
-  
+
                 <li class="nav-item">
                   <a class="nav-link" routerLink='contactus' (click)="onSubmit()">Contact Us</a>
                 </li>
-  
+
               </ul>
-            </div> 
+            </div>
           </div>
         </nav>
       </div>
     </div>
-    
+
   </div>
-  <div *ngIf=flag>
+   <div *ngIf=flag>
     <app-header></app-header>
   </div>
-  <!-- <div *ngIf=flag>
+  <div *ngIf=flag>
     <h4>piyush works</h4>
-  </div> -->
+  </div>
   <router-outlet></router-outlet>
+<<<<<<< HEAD
   
   <footer>
     <div class="footer-wrap">
@@ -346,3 +348,11 @@
   
   
   
+=======
+
+<app-footer></app-footer>
+</div>
+
+
+
+>>>>>>> 91b15d7543d4a3de9474c6ad557a8978b5872a1b
