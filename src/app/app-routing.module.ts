@@ -58,6 +58,11 @@ import { BlogComponent } from './MyComponents/blog/blog.component';
 import { ContactusComponent } from './MyComponents/contactus/contactus.component';
 
 const routes: Routes = [
+  {
+    path:"**",
+    redirectTo : "home",
+    pathMatch: "full",
+  },
   { path: 'home', component: HeaderComponent },
   { path: 'sip', component: SipComponent },
   { path: 'bluechip', component: BluechipComponent },

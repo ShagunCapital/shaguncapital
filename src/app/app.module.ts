@@ -59,6 +59,7 @@ import { KnowledgeComponent } from './MyComponents/knowledge/knowledge.component
 import { DownloadsComponent } from './MyComponents/downloads/downloads.component';
 import { BlogComponent } from './MyComponents/blog/blog.component';
 import { ContactusComponent } from './MyComponents/contactus/contactus.component';
+import { FooterComponent } from './MyComponents/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -118,7 +119,8 @@ import { ContactusComponent } from './MyComponents/contactus/contactus.component
     KnowledgeComponent,
     DownloadsComponent,
     BlogComponent,
-    ContactusComponent
+    ContactusComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

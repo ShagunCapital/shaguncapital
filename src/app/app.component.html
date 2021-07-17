@@ -1,7 +1,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <div class="p-0 m-0">
   <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 w-100 m-0">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">ShagunCapital</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,14 +21,14 @@
           </div>
         </nav>
   </div>
-  <div class="banner-area">
-    <div class="row">
+  <div class="banner-area p-0 m-0 container-fluid">
+    <div class="row  w-100">
       <div class="col-12">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-    
+
                 <li class="nav-item">
                   <a class="nav-link" routerLink="home">Home</a>
                 </li>
@@ -91,7 +92,7 @@
                     </div>
                   </ul>
                 </li>
-  
+
                 <li class="nav-item dropdown menu-area">
                   <a class="nav-link dropdown-toggle" href="#" id="mega-two" role="button" data-bs-toggle="dropdown" aria-expanded="false" (click)="onSubmit()">
                     Solutions
@@ -133,7 +134,7 @@
                     </div>
                   </ul>
                 </li>
-  
+
                 <li class="nav-item dropdown menu-area">
                   <a class="nav-link dropdown-toggle" href="#" id="mega-three" role="button" data-bs-toggle="dropdown" aria-expanded="false" (click)="onSubmit()">
                     Services
@@ -171,178 +172,41 @@
                     </div>
                   </ul>
                 </li>
-  
+
                 <li class="nav-item">
                   <a class="nav-link" routerLink='knowledge' (click)="onSubmit()">Knowledge Center</a>
                 </li>
-  
+
                 <li class="nav-item">
                   <a class="nav-link" routerLink='downloads' (click)="onSubmit()">Downloads</a>
                 </li>
-                
+
                 <li class="nav-item">
                   <a class="nav-link" routerLink='blog' (click)="onSubmit()">Blog</a>
                 </li>
-  
+
                 <li class="nav-item">
                   <a class="nav-link" routerLink='contactus' (click)="onSubmit()">Contact Us</a>
                 </li>
-  
+
               </ul>
-            </div> 
+            </div>
           </div>
         </nav>
       </div>
     </div>
-    
+
   </div>
-  <div *ngIf=flag>
+   <div *ngIf=flag>
     <app-header></app-header>
   </div>
-  <!-- <div *ngIf=flag>
+  <div *ngIf=flag>
     <h4>piyush works</h4>
-  </div> -->
+  </div>
   <router-outlet></router-outlet>
-  
-  <footer>
-    <div class="footer-wrap">
-    <div class="container first_class">
-        <div class="row">
-          <div class="col-md-4 col-sm-6">
-            <h3>BE THE FIRST TO KNOW</h3>
-            <p>Get all the latest information on  Triedge Services, Events, Jobs
-              and Fairs. Sign up for our newsletter today.</p>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <form class="newsletter">
-              <input type="text" placeholder="Email Address"> 
-                  <button class="newsletter_submit_btn" type="submit"><i class="fa fa-paper-plane"></i></button> 
-            </form>
-          
-          </div>
-          <div class="col-md-4 col-sm-6">
-          <div class="col-md-12">
-            <div class="standard_social_links">
-          <div>
-            <li class="round-btn btn-facebook"><a href="#"><i class="fa fa-facebook"></i></a>
-  
-            </li>
-            <li class="round-btn btn-linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-  
-            </li>
-            <li class="round-btn btn-twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  
-            </li>
-            <li class="round-btn btn-instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-  
-            </li>
-            <li class="round-btn btn-whatsapp"><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-  
-            </li>
-            <li class="round-btn btn-envelop"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-  
-            </li>
-          </div>
-        </div>  
-          </div>
-            <div class="clearfix"></div>
-          </div>
-        </div>
-    </div>
-      <div class="second_class">
-        <div class="container second_class_bdr">
-        <div class="row">
-          <div class="col-md-2 col-sm-6">
-            <h3>Quick  Links</h3>
-            <ul class="footer-links">
-              <li><a href="#">Home</a>
-              </li>
-              <li><a href="#">About us</a>
-              </li>
-              <li><a href="#">Careers</a>
-              </li>
-              <li><a href="#">ShagunCapital Partners</a>
-              </li>
-              <li><a href="#">Contact Us</a>
-              </li>
-              <li><a href="#" target="_blank">Terms & Conditions</a>
-              </li>
-              <li><a href="#" target="_blank">Privacy Policy</a>
-              </li>
-              <li><a href="#">FAQ</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2 col-sm-6">
-            <h3>EXPLORE</h3>
-            <ul class="footer-category">
-              <li><a href="#">Claim Intimation</a>
-              </li>
-              <li><a href="#">Tax Saving</a>
-              </li>
-              <li><a href="#">Insurance</a>
-              </li>
-              <li><a href="#">Investment</a>
-              </li>
-              <li><a href="#">NFO</a>
-              </li>
-              <li><a href="#">Digital Gold</a>
-              </li>
-            </ul>
-          </div>
-  
-          <div class="col-md-2 col-sm-6">
-            <h3>CALCULATORS</h3>
-            <ul class="footer-category">
-              <li><a href="#">SIP Calculator</a>
-              </li>
-              <li><a href="#">Goal SIP Calculator</a>
-              </li>
-              <li><a href="#">Insurance Calculator</a>
-              </li>
-              <li><a href="#">Inflation Calculator</a>
-              </li>
-              <li><a href="#">Income Tax Calculator</a>
-              </li>
-            </ul>
-          </div>
-  
-          <div class="col-md-2 col-sm-6">
-            <h3>USEFUL LINKS</h3>
-            <ul class="footer-links">
-              <li><a href="#">eKYC</a>
-              </li>
-            </ul>
-          </div>
-  
-          <div class="col-md-4 col-sm-6">
-  
-            <div class="footer-logo"><img src="http://localhost/lrn/img/footer_logo.png" alt="logo">
-            </div>
-            <p>Your one-stop career platform to find Jobs, Internships, Professional Trainings, Projects, and Volunteering Opportunities.</p>
-          </div>
-  
-        </div>
-        
-      </div>
-      </div>
-      
-      <div class="row">
-        
-        <div class="container-fluid">
-        <div class="copyright"> Copyright 2021 | All Rights Reserved by ShagunCapital Pvt. Ltd.</div>
-        </div>
-        
-      </div>
-    </div>
-    <!--footer end-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-  <!-- Font Awesome 5 links-->
-  <script src="https://kit.fontawesome.com/fddf5c0916.js" crossorigin="anonymous"></script>
-  </footer>
-  
-  
-  
+
+<app-footer></app-footer>
+</div>
+
+
+
