@@ -59,21 +59,18 @@ import { KnowledgeComponent } from './MyComponents/knowledge/knowledge.component
 import { DownloadsComponent } from './MyComponents/downloads/downloads.component';
 import { BlogComponent } from './MyComponents/blog/blog.component';
 import { ContactusComponent } from './MyComponents/contactus/contactus.component';
-<<<<<<< HEAD
+import { FooterComponent } from './MyComponents/footer/footer.component';
+import { IncometaxcalcComponent } from './MyComponents/incometaxcalc/incometaxcalc.component';
+import { InflationcalcComponent } from './MyComponents/inflationcalc/inflationcalc.component';
 import { AboutusComponent } from './MyComponents/aboutus/aboutus.component';
 import { CareersComponent } from './MyComponents/careers/careers.component';
-import { TcComponent } from './MyComponents/tc/tc.component';
-import { PrivacypolicyComponent } from './MyComponents/privacypolicy/privacypolicy.component';
-import { FaqComponent } from './MyComponents/faq/faq.component';
 import { ClaimIntimationComponent } from './MyComponents/claim-intimation/claim-intimation.component';
-import { SipcalcComponent } from './MyComponents/sipcalc/sipcalc.component';
+import { FaqComponent } from './MyComponents/faq/faq.component';
 import { GoalsipcalcComponent } from './MyComponents/goalsipcalc/goalsipcalc.component';
 import { InsurancecalcComponent } from './MyComponents/insurancecalc/insurancecalc.component';
-import { InflationcalcComponent } from './MyComponents/inflationcalc/inflationcalc.component';
-import { IncometaxcalcComponent } from './MyComponents/incometaxcalc/incometaxcalc.component';
-=======
-import { FooterComponent } from './MyComponents/footer/footer.component';
->>>>>>> 91b15d7543d4a3de9474c6ad557a8978b5872a1b
+import { PrivacypolicyComponent } from './MyComponents/privacypolicy/privacypolicy.component';
+import { SipcalcComponent } from './MyComponents/sipcalc/sipcalc.component';
+import { TcComponent } from './MyComponents/tc/tc.component';
 
 @NgModule({
   declarations: [
@@ -134,7 +131,6 @@ import { FooterComponent } from './MyComponents/footer/footer.component';
     DownloadsComponent,
     BlogComponent,
     ContactusComponent,
-<<<<<<< HEAD
     AboutusComponent,
     CareersComponent,
     TcComponent,
@@ -145,10 +141,8 @@ import { FooterComponent } from './MyComponents/footer/footer.component';
     GoalsipcalcComponent,
     InsurancecalcComponent,
     InflationcalcComponent,
-    IncometaxcalcComponent
-=======
+    IncometaxcalcComponent,
     FooterComponent
->>>>>>> 91b15d7543d4a3de9474c6ad557a8978b5872a1b
   ],
   imports: [
     BrowserModule,
