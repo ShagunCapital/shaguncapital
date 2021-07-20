@@ -45,3 +45,179 @@
     display: flex;
     flex-direction: row;
 }
+
+.pe-user-calculate-box
+{
+    padding-top: 60px;
+    display: block;
+    letter-spacing: 0.2px;
+}
+
+.pe-ppf-calculator 
+{
+    background: #ffffff;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 15%), 0px 12px 34px rgb(0 0 0 / 10%);
+    border-radius: 6px;
+    padding: 1.5rem;
+}
+.pe-mutual-fund-sip-calculation-wrapper 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+    background: #fafafa;
+    border-radius: 9px;
+    margin-top: 1.5rem;
+}
+.sb-primary-cta-button {
+    background: #10AC84;
+    color: #FFF;
+    border-radius: 4px;
+    border: 1px solid #10AC84;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 27px;
+}
+a 
+{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s all;
+}
+#inflation-container .first-output-section span 
+{
+    color: #077559 !important;
+    font-weight: 600;
+    font-size: 19px;
+}
+#inflation-container .first-output-section .firsttext 
+{
+    margin: 8px 0px;
+    color: #133158 !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+.pe-p, p 
+{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: #181818;
+}
+.inflation-btn[_ngcontent-icu-c78] 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#inflation-container .inflation-input-box 
+{
+    background-color: #fafafa;
+    margin: 27px 0px;
+    padding: 14px;
+}
+#inflation-container .infy-label 
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #383434;
+    text-align: center;
+    margin-left: 2px;
+}
+label 
+{
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+#inflation-container .second-output-section label 
+{
+    color: #133158 !important;
+    font-weight: 500;
+    font-size: 16px;
+}
+#inflation-container .second-output-section p, #inflation-container span 
+{
+    color: #077559 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+.pe-p, p 
+{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: #181818;
+}
+#inflation-container .second-output-section p, #inflation-container span 
+{
+    color: #077559 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+.form-control:disabled, .form-control[readonly] 
+{
+    background-color: #e9ecef;
+    opacity: 1;
+}
+.form-control 
+{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.pe-input, input 
+{
+    font-family: "Inter", sans-serif !important;
+    outline: none;
+    box-shadow: none;
+}
+.ppf-calculator label 
+{
+    margin-bottom: 1px;
+}
+.pe-label 
+{
+    display: block;
+    line-height: 1.2;
+    color: #595959;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.ppf-calculator .pe-box 
+{
+    padding: 22px 12px 22px 30px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0px 0px 1.5px rgb(0 0 0 / 50%), 0px 1px 2px rgb(0 0 0 / 10%);
+    width: 100%;
+    font-size: 14px;
+    color: #7d7c75;
+    margin-top: 8px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.pe-h2 
+{
+    font-size: 1.375rem;
+    line-height: 1.1;
+    padding-bottom: 1.5rem;
+}
+.pe-h1, h1, .pe-h2, h2, .pe-h3, h3, .pe-h4, h4 .pe-h5, h5, .pe-h6, h6, .pe-p, p 
+{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: #181818;
+}

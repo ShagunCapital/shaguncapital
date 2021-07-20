@@ -142,7 +142,7 @@ import { TcComponent } from './MyComponents/tc/tc.component';
     InsurancecalcComponent,
     InflationcalcComponent,
     IncometaxcalcComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
