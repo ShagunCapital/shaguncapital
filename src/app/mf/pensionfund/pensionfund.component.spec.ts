@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HybridComponent } from './hybrid.component';
+import { PensionfundComponent } from './pensionfund.component';
 
-describe('HybridComponent', () => {
-  let component: HybridComponent;
-  let fixture: ComponentFixture<HybridComponent>;
+describe('PensionfundComponent', () => {
+  let component: PensionfundComponent;
+  let fixture: ComponentFixture<PensionfundComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HybridComponent ]
+      declarations: [ PensionfundComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HybridComponent);
+    fixture = TestBed.createComponent(PensionfundComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

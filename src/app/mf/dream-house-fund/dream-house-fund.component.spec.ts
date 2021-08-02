@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BluechipComponent } from './bluechip.component';
+import { DreamHouseFundComponent } from './dream-house-fund.component';
 
-describe('BluechipComponent', () => {
-  let component: BluechipComponent;
-  let fixture: ComponentFixture<BluechipComponent>;
+describe('DreamHouseFundComponent', () => {
+  let component: DreamHouseFundComponent;
+  let fixture: ComponentFixture<DreamHouseFundComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BluechipComponent ]
+      declarations: [ DreamHouseFundComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BluechipComponent);
+    fixture = TestBed.createComponent(DreamHouseFundComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

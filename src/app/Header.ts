@@ -9,6 +9,7 @@ export interface Home
 {
     cardTitle: string;
     desc: string;
+    imgsrc: string;
     active: boolean;
 }
 
@@ -69,5 +70,11 @@ export interface HowInvest
 export interface WhyShagun
 {
     li: string;
+    active: boolean;
+}
+export interface MoreCalc
+{
+    title: string;
+    desc: string;
     active: boolean;
 }

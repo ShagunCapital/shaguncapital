@@ -1,24 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
+import { MfModule } from './mf/mf.module';
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './MyComponents/header/header.component';
 import { SipComponent } from './MyComponents/sip/sip.component';
-import { BluechipComponent } from './MyComponents/bluechip/bluechip.component';
-import { EquityComponent } from './MyComponents/equity/equity.component';
-import { DebtComponent } from './MyComponents/debt/debt.component';
 import { BalanceComponent } from './MyComponents/balance/balance.component';
-import { ChildrenComponent } from './MyComponents/children/children.component';
-import { TaxsavingComponent } from './MyComponents/taxsaving/taxsaving.component';
 import { SavingsComponent } from './MyComponents/savings/savings.component';
-import { UlipComponent } from './MyComponents/ulip/ulip.component';
-import { RetirementComponent } from './MyComponents/retirement/retirement.component';
 import { RegularComponent } from './MyComponents/regular/regular.component';
-import { HybridComponent } from './MyComponents/hybrid/hybrid.component';
-import { HigherstudyComponent } from './MyComponents/higherstudy/higherstudy.component';
-import { GoldfundComponent } from './MyComponents/goldfund/goldfund.component';
-import { WealthcreationComponent } from './MyComponents/wealthcreation/wealthcreation.component';
 import { EndowmentComponent } from './MyComponents/endowment/endowment.component';
 import { MoneybackComponent } from './MyComponents/moneyback/moneyback.component';
 import { ChildrenlifeComponent } from './MyComponents/childrenlife/childrenlife.component';
@@ -71,26 +61,23 @@ import { InsurancecalcComponent } from './MyComponents/insurancecalc/insuranceca
 import { PrivacypolicyComponent } from './MyComponents/privacypolicy/privacypolicy.component';
 import { SipcalcComponent } from './MyComponents/sipcalc/sipcalc.component';
 import { TcComponent } from './MyComponents/tc/tc.component';
+import { MfComponent } from './mf/mf.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SipComponent,
-    BluechipComponent,
-    EquityComponent,
-    DebtComponent,
     BalanceComponent,
-    ChildrenComponent,
-    TaxsavingComponent,
+
     SavingsComponent,
-    UlipComponent,
-    RetirementComponent,
+
+
     RegularComponent,
-    HybridComponent,
-    HigherstudyComponent,
-    GoldfundComponent,
-    WealthcreationComponent,
+
+    
+
     EndowmentComponent,
     MoneybackComponent,
     ChildrenlifeComponent,
@@ -143,10 +130,12 @@ import { TcComponent } from './MyComponents/tc/tc.component';
     InflationcalcComponent,
     IncometaxcalcComponent,
     FooterComponent,
+    MfComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MfModule
   ],
   providers: [],
   bootstrap: [AppComponent]

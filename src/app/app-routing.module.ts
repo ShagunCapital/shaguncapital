@@ -1,21 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 import { HeaderComponent } from './MyComponents/header/header.component';
 import { SipComponent } from './MyComponents/sip/sip.component';
-import { BluechipComponent } from './MyComponents/bluechip/bluechip.component';
-import { EquityComponent } from './MyComponents/equity/equity.component';
-import { DebtComponent } from './MyComponents/debt/debt.component';
+
 import { BalanceComponent } from './MyComponents/balance/balance.component';
-import { ChildrenComponent } from './MyComponents/children/children.component';
-import { TaxsavingComponent } from './MyComponents/taxsaving/taxsaving.component';
 import { SavingsComponent } from './MyComponents/savings/savings.component';
-import { UlipComponent } from './MyComponents/ulip/ulip.component';
-import { RetirementComponent } from './MyComponents/retirement/retirement.component';
+
 import { RegularComponent } from './MyComponents/regular/regular.component';
-import { HybridComponent } from './MyComponents/hybrid/hybrid.component';
-import { HigherstudyComponent } from './MyComponents/higherstudy/higherstudy.component';
-import { GoldfundComponent } from './MyComponents/goldfund/goldfund.component';
-import { WealthcreationComponent } from './MyComponents/wealthcreation/wealthcreation.component';
+
+
 import { EndowmentComponent } from './MyComponents/endowment/endowment.component';
 import { MoneybackComponent } from './MyComponents/moneyback/moneyback.component';
 import { ChildrenlifeComponent } from './MyComponents/childrenlife/childrenlife.component';
@@ -76,20 +70,12 @@ const routes: Routes = [
   },
   { path: 'home', component: HeaderComponent },
   { path: 'sip', component: SipComponent },
-  { path: 'bluechip', component: BluechipComponent },
-  { path: 'equity', component: EquityComponent },
-  { path: 'debt', component: DebtComponent },
+ 
   { path: 'balance', component: BalanceComponent },
-  { path: 'children', component: ChildrenComponent },
-  { path: 'taxsaving', component: TaxsavingComponent },
   { path: 'savings', component: SavingsComponent },
-  { path: 'ulip', component: UlipComponent },
-  { path: 'retirement', component: RetirementComponent },
   { path: 'regular', component: RegularComponent },
-  { path: 'hybrid', component: HybridComponent },
-  { path: 'higherstudy', component: HigherstudyComponent },
-  { path: 'goldfund', component: GoldfundComponent },
-  { path: 'wealthcreation', component: WealthcreationComponent },
+
+  
   { path: 'endowment', component: EndowmentComponent },
   { path: 'moneyback', component: MoneybackComponent },
   { path: 'childrenlife', component: ChildrenlifeComponent },

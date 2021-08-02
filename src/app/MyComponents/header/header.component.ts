@@ -41,16 +41,19 @@ export class HeaderComponent implements OnInit {
     {
       cardTitle: "Health Insurance",
       desc: "The bonus declared on our money bank plans add to your savings",
+      imgsrc: "./../.././../assets/images/health-insurance.png",
       active: true
     },
     {
       cardTitle: "Home Insurance",
       desc: "The bonus declared on our money bank plans add to your savings",
+      imgsrc: "./../.././../assets/images/home-insurance.png",
       active: true
     },
     {
       cardTitle: "Car Insurance",
       desc: "The bonus declared on our money bank plans add to your savings",
+      imgsrc: "./../.././../assets/images/car-insurance.png",
       active: true
     },
   ]

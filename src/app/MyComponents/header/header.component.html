@@ -40,7 +40,7 @@
 
 
 
-<img src="D:/ShagunCapital/download.jpg" class="img-fluid" alt="Responsive image">
+<img src="./../.././../assets/images/beginners guide to (1).png" class="img-fluid" alt="Responsive image">
 
 <div class="container">
     <div class="row products-card" >
@@ -93,7 +93,7 @@
 
     <div class="row service-insurance-card">
         <div class="card cardspace second" style="width: 21rem;" *ngFor="let content of services">
-            <img class="card-img-top" src="..." alt="Card image cap">
+            <img class="card-img-top" [src]= "content.imgsrc" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">{{content.cardTitle}}</h5>
                 <p class="card-text">{{content.desc}}</p>

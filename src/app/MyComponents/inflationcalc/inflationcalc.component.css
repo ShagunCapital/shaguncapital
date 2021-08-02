@@ -221,3 +221,69 @@ label
     font-family: "Inter", sans-serif;
     color: #181818;
 }
+#inflation-container .border-box 
+{
+    border: 1px solid #ced4db;
+    margin-left: 0px;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+.pe-section-common-explore-other-calculators .pe-common-explore-other-calculators-head .pe-p 
+{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.15;
+}
+.pe-section-common-explore-other-calculators .pe-p 
+{
+    font-size: 18px;
+    color: #595959;
+    line-height: 1.6;
+    padding-bottom: 0rem;
+}
+.pe-section-common-explore-other-calculators .pe-common-explore-other-calculators-card-container 
+{
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    overflow-x: scroll;
+}
+.pe-section-common-explore-other-calculators .pe-common-explore-other-calculators-card-container 
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    display: flex;
+}
+.pe-section-common-explore-other-calculators .pe-common-explore-other-calculators-card
+{
+    max-width: 192px;
+    min-width: 192px;
+    padding: 1.25rem 12px 12px 12px;
+    box-shadow: 0px 0px 1.5px rgb(0 0 0 / 50%), 0px 1px 2px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    background-color: #ffffff;
+    height: 12rem;
+}
+.pe-section-common-explore-other-calculators .pe-common-explore-other-calculators-card .pe-head 
+{
+    font-size: 1rem;
+    color: #181818;
+    line-height: 1.15;
+    padding-bottom: 4px;
+    padding-top: 1.125rem;
+    font-weight: 500;
+}
+.pe-section-common-explore-other-calculators .pe-common-explore-other-calculators-card .pe-p 
+{
+    font-size: 13px;
+    color: #404040;
+    line-height: 1.4;
+    font-weight: 400;
+}
+.pe-section-common-explore-other-calculators .pe-common-explore-other-calculators-card-container 
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    display: flex;
+}

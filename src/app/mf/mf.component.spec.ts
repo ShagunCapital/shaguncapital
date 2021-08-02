@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UlipComponent } from './ulip.component';
+import { MfComponent } from './mf.component';
 
-describe('UlipComponent', () => {
-  let component: UlipComponent;
-  let fixture: ComponentFixture<UlipComponent>;
+describe('MfComponent', () => {
+  let component: MfComponent;
+  let fixture: ComponentFixture<MfComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ UlipComponent ]
+      declarations: [ MfComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UlipComponent);
+    fixture = TestBed.createComponent(MfComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

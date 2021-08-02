@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EquityComponent } from './equity.component';
+import { RegularSavingComponent } from './regular-saving.component';
 
-describe('EquityComponent', () => {
-  let component: EquityComponent;
-  let fixture: ComponentFixture<EquityComponent>;
+describe('RegularSavingComponent', () => {
+  let component: RegularSavingComponent;
+  let fixture: ComponentFixture<RegularSavingComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EquityComponent ]
+      declarations: [ RegularSavingComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EquityComponent);
+    fixture = TestBed.createComponent(RegularSavingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
