@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { MfModule } from './mf/mf.module';
+import { LifeinsModule } from './lifeins/lifeins.module';
+import { HealthinsModule } from './healthins/healthins.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './MyComponents/header/header.component';
@@ -9,24 +11,6 @@ import { SipComponent } from './MyComponents/sip/sip.component';
 import { BalanceComponent } from './MyComponents/balance/balance.component';
 import { SavingsComponent } from './MyComponents/savings/savings.component';
 import { RegularComponent } from './MyComponents/regular/regular.component';
-import { EndowmentComponent } from './MyComponents/endowment/endowment.component';
-import { MoneybackComponent } from './MyComponents/moneyback/moneyback.component';
-import { ChildrenlifeComponent } from './MyComponents/childrenlife/childrenlife.component';
-import { HigherstudylifeComponent } from './MyComponents/higherstudylife/higherstudylife.component';
-import { RetirementlifeComponent } from './MyComponents/retirementlife/retirementlife.component';
-import { PensionComponent } from './MyComponents/pension/pension.component';
-import { TermComponent } from './MyComponents/term/term.component';
-import { CancercareComponent } from './MyComponents/cancercare/cancercare.component';
-import { TaxsavinglifeComponent } from './MyComponents/taxsavinglife/taxsavinglife.component';
-import { IndividualhealthComponent } from './MyComponents/individualhealth/individualhealth.component';
-import { FamilyfloaterComponent } from './MyComponents/familyfloater/familyfloater.component';
-import { DiabetesComponent } from './MyComponents/diabetes/diabetes.component';
-import { ArogyaComponent } from './MyComponents/arogya/arogya.component';
-import { CardiacComponent } from './MyComponents/cardiac/cardiac.component';
-import { CriticalcareComponent } from './MyComponents/criticalcare/criticalcare.component';
-import { GrouphealthComponent } from './MyComponents/grouphealth/grouphealth.component';
-import { CorporatehealthComponent } from './MyComponents/corporatehealth/corporatehealth.component';
-import { TaxsavinghealthComponent } from './MyComponents/taxsavinghealth/taxsavinghealth.component';
 import { GolddepositsComponent } from './MyComponents/golddeposits/golddeposits.component';
 import { BondsComponent } from './MyComponents/bonds/bonds.component';
 import { FixdepositsComponent } from './MyComponents/fixdeposits/fixdeposits.component';
@@ -62,6 +46,10 @@ import { PrivacypolicyComponent } from './MyComponents/privacypolicy/privacypoli
 import { SipcalcComponent } from './MyComponents/sipcalc/sipcalc.component';
 import { TcComponent } from './MyComponents/tc/tc.component';
 import { MfComponent } from './mf/mf.component';
+import { LifeinsComponent } from './lifeins/lifeins.component';
+import { HealthinsComponent } from './healthins/healthins.component';
+
+
 
 
 @NgModule({
@@ -70,32 +58,8 @@ import { MfComponent } from './mf/mf.component';
     HeaderComponent,
     SipComponent,
     BalanceComponent,
-
     SavingsComponent,
-
-
     RegularComponent,
-
-    
-
-    EndowmentComponent,
-    MoneybackComponent,
-    ChildrenlifeComponent,
-    HigherstudylifeComponent,
-    RetirementlifeComponent,
-    PensionComponent,
-    TermComponent,
-    CancercareComponent,
-    TaxsavinglifeComponent,
-    IndividualhealthComponent,
-    FamilyfloaterComponent,
-    DiabetesComponent,
-    ArogyaComponent,
-    CardiacComponent,
-    CriticalcareComponent,
-    GrouphealthComponent,
-    CorporatehealthComponent,
-    TaxsavinghealthComponent,
     GolddepositsComponent,
     BondsComponent,
     FixdepositsComponent,
@@ -131,11 +95,15 @@ import { MfComponent } from './mf/mf.component';
     IncometaxcalcComponent,
     FooterComponent,
     MfComponent,
+    LifeinsComponent,
+    HealthinsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MfModule
+    MfModule,
+    LifeinsModule,
+    HealthinsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

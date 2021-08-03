@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule, Routes } from '@angular/router';
+
 import { ChildrenComponent } from './children/children.component';
 import { HigherstudyComponent } from './higherstudy/higherstudy.component';
 import { RetirementComponent } from './retirement/retirement.component';
 import { TaxsavingComponent } from './taxsaving/taxsaving.component';
 import { WealthcreationComponent } from './wealthcreation/wealthcreation.component';
-import { RouterModule } from '@angular/router';
 import { MfComponent } from './mf.component';
 import { GoldfundComponent } from './goldfund/goldfund.component';
 import { PensionfundComponent } from './pensionfund/pensionfund.component';
@@ -14,7 +15,7 @@ import { RegularpayComponent } from './regularpay/regularpay.component';
 import { RegularSavingComponent } from './regular-saving/regular-saving.component';
 
 
-const mfRoutes = [
+const mfRoutes: Routes = [
   {path: 'mf', children:[
     { path: '', component: MfComponent},
     { path: 'children', component: ChildrenComponent },

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EndowmentComponent } from './endowment.component';
+import { WealthbuilderComponent } from './wealthbuilder.component';
 
-describe('EndowmentComponent', () => {
-  let component: EndowmentComponent;
-  let fixture: ComponentFixture<EndowmentComponent>;
+describe('WealthbuilderComponent', () => {
+  let component: WealthbuilderComponent;
+  let fixture: ComponentFixture<WealthbuilderComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EndowmentComponent ]
+      declarations: [ WealthbuilderComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EndowmentComponent);
+    fixture = TestBed.createComponent(WealthbuilderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

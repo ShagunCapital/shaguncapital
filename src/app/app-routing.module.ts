@@ -3,31 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HeaderComponent } from './MyComponents/header/header.component';
 import { SipComponent } from './MyComponents/sip/sip.component';
-
 import { BalanceComponent } from './MyComponents/balance/balance.component';
 import { SavingsComponent } from './MyComponents/savings/savings.component';
-
 import { RegularComponent } from './MyComponents/regular/regular.component';
-
-
-import { EndowmentComponent } from './MyComponents/endowment/endowment.component';
-import { MoneybackComponent } from './MyComponents/moneyback/moneyback.component';
-import { ChildrenlifeComponent } from './MyComponents/childrenlife/childrenlife.component';
-import { HigherstudylifeComponent } from './MyComponents/higherstudylife/higherstudylife.component';
-import { RetirementlifeComponent } from './MyComponents/retirementlife/retirementlife.component';
-import { PensionComponent } from './MyComponents/pension/pension.component';
-import { TermComponent } from './MyComponents/term/term.component';
-import { CancercareComponent } from './MyComponents/cancercare/cancercare.component';
-import { TaxsavinglifeComponent } from './MyComponents/taxsavinglife/taxsavinglife.component';
-import { IndividualhealthComponent } from './MyComponents/individualhealth/individualhealth.component';
-import { FamilyfloaterComponent } from './MyComponents/familyfloater/familyfloater.component';
-import { DiabetesComponent } from './MyComponents/diabetes/diabetes.component';
-import { ArogyaComponent } from './MyComponents/arogya/arogya.component';
-import { CardiacComponent } from './MyComponents/cardiac/cardiac.component';
-import { CriticalcareComponent } from './MyComponents/criticalcare/criticalcare.component';
-import { GrouphealthComponent } from './MyComponents/grouphealth/grouphealth.component';
-import { CorporatehealthComponent } from './MyComponents/corporatehealth/corporatehealth.component';
-import { TaxsavinghealthComponent } from './MyComponents/taxsavinghealth/taxsavinghealth.component';
 import { GolddepositsComponent } from './MyComponents/golddeposits/golddeposits.component';
 import { BondsComponent } from './MyComponents/bonds/bonds.component';
 import { FixdepositsComponent } from './MyComponents/fixdeposits/fixdeposits.component';
@@ -70,30 +48,9 @@ const routes: Routes = [
   },
   { path: 'home', component: HeaderComponent },
   { path: 'sip', component: SipComponent },
- 
   { path: 'balance', component: BalanceComponent },
   { path: 'savings', component: SavingsComponent },
   { path: 'regular', component: RegularComponent },
-
-  
-  { path: 'endowment', component: EndowmentComponent },
-  { path: 'moneyback', component: MoneybackComponent },
-  { path: 'childrenlife', component: ChildrenlifeComponent },
-  { path: 'higherstudylife', component: HigherstudylifeComponent },
-  { path: 'retirementlife', component: RetirementlifeComponent },
-  { path: 'pension', component: PensionComponent },
-  { path: 'term', component: TermComponent },
-  { path: 'cancercare', component: CancercareComponent },
-  { path: 'taxsavinglife', component: TaxsavinglifeComponent },
-  { path: 'individualhealth', component: IndividualhealthComponent },
-  { path: 'familyfloater', component: FamilyfloaterComponent },
-  { path: 'diabetes', component: DiabetesComponent },
-  { path: 'arogya', component: ArogyaComponent },
-  { path: 'cardiac', component: CardiacComponent },
-  { path: 'criticalcare', component: CriticalcareComponent },
-  { path: 'grouphealth', component: GrouphealthComponent },
-  { path: 'corporatehealth', component: CorporatehealthComponent },
-  { path: 'taxsavinghealth', component: TaxsavinghealthComponent },
   { path: 'golddeposits', component: GolddepositsComponent },
   { path: 'bonds', component: BondsComponent },
   { path: 'fixdeposits', component: FixdepositsComponent },
