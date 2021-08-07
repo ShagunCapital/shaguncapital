@@ -39,6 +39,7 @@ import { GoalsipcalcComponent } from './MyComponents/goalsipcalc/goalsipcalc.com
 import { InsurancecalcComponent } from './MyComponents/insurancecalc/insurancecalc.component';
 import { InflationcalcComponent } from './MyComponents/inflationcalc/inflationcalc.component';
 import { IncometaxcalcComponent } from './MyComponents/incometaxcalc/incometaxcalc.component';
+import { IntroMfComponent } from './MyComponents/intro-mf/intro-mf.component';
 
 const routes: Routes = [
   {
@@ -84,6 +85,7 @@ const routes: Routes = [
   { path: 'insurancecalc', component: InsurancecalcComponent },
   { path: 'inflationcalc', component: InflationcalcComponent },
   { path: 'incometaxcalc', component: IncometaxcalcComponent },
+  { path: 'intro-mf', component: IntroMfComponent},
 ];
 
 @NgModule({

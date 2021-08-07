@@ -48,6 +48,7 @@ import { TcComponent } from './MyComponents/tc/tc.component';
 import { MfComponent } from './mf/mf.component';
 import { LifeinsComponent } from './lifeins/lifeins.component';
 import { HealthinsComponent } from './healthins/healthins.component';
+import { IntroMfComponent } from './MyComponents/intro-mf/intro-mf.component';
 
 
 
@@ -97,6 +98,7 @@ import { HealthinsComponent } from './healthins/healthins.component';
     MfComponent,
     LifeinsComponent,
     HealthinsComponent,
+    IntroMfComponent,
   ],
   imports: [
     BrowserModule,
