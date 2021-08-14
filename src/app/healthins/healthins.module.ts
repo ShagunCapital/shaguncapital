@@ -14,8 +14,6 @@ import { IndividualhealthComponent } from './individualhealth/individualhealth.c
 import { TaxsavinghealthComponent } from './taxsavinghealth/taxsavinghealth.component';
 
 
-
-
 const healthInsRoutes: Routes = [
   {path: 'healthins', children:[
     { path: '', component: HealthinsComponent},
