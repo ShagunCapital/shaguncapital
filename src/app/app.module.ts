@@ -4,6 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { MfModule } from './mf/mf.module';
 import { LifeinsModule } from './lifeins/lifeins.module';
 import { HealthinsModule } from './healthins/healthins.module';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './MyComponents/header/header.component';
@@ -103,6 +104,7 @@ import { SipUtilComponent } from './Calculators/sip-util/sip-util.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     MfModule,
     LifeinsModule,

@@ -601,3 +601,122 @@
     margin-right: 20%;
 }
 
+/* -------------------------------------------------------------------- */
+
+/* .container {
+    width: 1140px;
+    max-width: 100%;
+}
+.pe-h2 {
+    font-size: 1.375rem;
+    line-height: 1.1;
+    padding-bottom: 1.5rem;
+}
+.pe-ppf-calculator {
+    background: #ffffff;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 15%), 0px 12px 34px rgb(0 0 0 / 10%);
+    border-radius: 6px;
+    padding: 1.5rem;
+}
+
+.ppf-calculator .form-group {
+    margin-bottom: 4px;
+}
+.ppf-calculator label {
+    margin-bottom: 1px;
+}
+.pe-label {
+    display: block;
+    line-height: 1.2;
+    color: #595959;
+    font-size: 14px;
+    margin-top: 30px;
+}
+#inflation-year{
+    width:  35%;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+#year{
+    margin-left: -60%;
+    display: block;
+    line-height: 1.2;
+    color: #595959;
+    font-size: 14px;
+    margin-top: 30px; 
+    
+}
+#inflation-compare-year{
+    width:  38%;
+    margin-left: -60%;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+#ppf-amount-input{
+    width:  40%;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+ }
+#inflation-container .inflation-input-box {
+    background-color: #fafafa;
+    margin: 27px 0px;
+    padding: 14px;
+    width : 40%;
+}
+.input-section {
+    margin: 0 0 32px 0;
+}
+#inflation-container .infy-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #383434;
+    text-align: center;
+    margin-left: 2px;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-lg-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.border-box {
+    border: 1px solid #ced4db;
+    margin-left: 0px;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+.second-output-section p, #inflation-container span {
+    color: #077559 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+.input-section label, #inflation-container span {
+    font-weight: 500;
+    font-size: 18px;
+}
+#total{
+    color: #077559 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+#rate{
+    margin-left: -10%;
+    width: 100%;
+}
+.border-box{
+    margin-left: -10%;
+    width: 100%;
+} */

@@ -9,6 +9,14 @@ import { BlogCard, Header, Home, Toggle } from 'src/app/Header';
 })
 export class HeaderComponent implements OnInit {
 
+  startyear: number = 0;
+  endyear: number = 0;
+  total: number = 0;
+  isvalid: boolean = false;
+  amount: number = 0;
+  finalamount: number = 0;
+  rate: number = 0;
+
   headerx: Header[] = [
     {
       title: "Get started with SIP",
@@ -34,7 +42,7 @@ export class HeaderComponent implements OnInit {
       title: "Cashless Hospital List",
       desc: "With supporting text below as a natural lead-in to additional content.",
       active: true
-    },    
+    },
   ]
 
   services: Home[] = [
@@ -101,10 +109,37 @@ export class HeaderComponent implements OnInit {
     }
   ]
 
-  constructor() { 
+  constructor() {
   }
 
-  ngOnInit(): void {
+
+
+
+  ngOnInit() {
+    this.startyear = 1960;
+    this.endyear = 2040;
+    this.total = 80;
+    this.amount = 1000;
+    this.finalamount = 2548;
+    this.rate = 11.125;
+  }
+  onKeyPress(event: any, key: any) {
+    event = event.target.value;
+    var dateval = event;
+    if (dateval.length < 3 || dateval.length <= 3 || dateval.length > 4 && key == this.startyear || key == this.endyear) {
+      this.isvalid = true;
+    }
+    if (dateval.length == 4 && key == this.startyear) {
+      this.total = dateval - this.endyear;
+    }
+    else if (dateval.length == 4 && key == this.endyear) {
+      this.total = dateval - this.startyear;
+    }
+  }
+  onchange(event1: any, a: any) {
+    event1 = event1.target.value;
+    var amountval = event1;
+    this.finalamount = (amountval * this.rate * this.total) / (100 * 12);
   }
 
 }

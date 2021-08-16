@@ -254,3 +254,65 @@
         <br>
     </div>
 </div>
+
+<!-- <div class="container" id="calculator-section">
+    <div class="pe-ppf-calculator" id="inflation-container">
+      <form>
+        <h2 class="pe-h2">
+          Inflation Calculator
+        </h2>
+        <div class="form-group">
+          <label class="pe-label" for="">Calculate the spending power of</label>
+          <input aria-describedby="" class="form-control sb-comma-input pe-amount-input pe-box" id="ppf-amount-input"
+            placeholder="Amount" type="text"  value="{{amount}}" maxlength="4" [(ngModel)]="amount" (keyup)="onchange($event,amount)">
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-6">
+              <label class="pe-label" for="">in Year</label>
+              <input type="text" class="form-control pe-box" id="inflation-year" maxlength="4" value="{{startyear}}" [(ngModel)]="startyear" (keyup)="onKeyPress($event,startyear)">
+            </div>
+            <div class="col-6">
+              <label for="" id="year">Compared to Year</label>
+              <input type="text" class="form-control pe-box" id="inflation-compare-year" maxlength="4" value="{{endyear}}" [(ngModel)]="endyear" (keyup)="onKeyPress($event,endyear)">
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="inflation-input-box">
+        <div class="pe-form-wrap">
+          <form>
+            <div class="input-section">
+              <label class="infy-label">
+                What if you invested that same amount?
+              </label>
+            </div>
+            <div class="second-output-section">
+              <div class="input-section">
+                <div class="row">
+                  <div class="col-md-9 col-lg-9 col-sm-9">
+                    <label>The number of years of Investment</label>
+                  </div>
+                  <div class="col-md-3 col-lg-3 col-sm-3">
+                      <input class="form-control" readonly=""  type="number" value="{{total}}" id="total" [(ngModel)]="total">
+                  </div>
+                </div>
+              </div>
+              <div class="input-section">
+                <div class="row">
+                  <div class="col-md-9 col-lg-9 col-sm-9">
+                    <label>Expected rate of Return(%)</label>
+                  </div>
+                  <div class="col-md-3 col-lg-3 col-sm-3">
+                    <input class="form-control" readonly="" type="text" value="11.25%" id="rate">
+                  </div>
+                </div>
+              </div>
+              <p>At the end of that time horizon, you could have</p>
+              <span class="amt-end-of-time-horizon">{{finalamount | currency:'INR' }}</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> -->
