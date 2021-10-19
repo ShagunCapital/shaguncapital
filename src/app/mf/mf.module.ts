@@ -13,6 +13,7 @@ import { PensionfundComponent } from './pensionfund/pensionfund.component';
 import { DreamHouseFundComponent } from './dream-house-fund/dream-house-fund.component';
 import { RegularpayComponent } from './regularpay/regularpay.component';
 import { RegularSavingComponent } from './regular-saving/regular-saving.component';
+import { SipUtilComponent } from '../Calculators/sip-util/sip-util.component';
 
 
 const mfRoutes: Routes = [
@@ -43,6 +44,7 @@ const mfRoutes: Routes = [
     DreamHouseFundComponent,
     RegularpayComponent,
     RegularSavingComponent,
+    SipUtilComponent
   ],
   imports: [
     CommonModule,
