@@ -13,3 +13,11 @@ body {
 } */
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mf p{
+  color: red;
+}
+  
+.mf .textColor{
+  color: blue;
+}
