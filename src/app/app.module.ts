@@ -50,8 +50,6 @@ import { MfComponent } from './mf/mf.component';
 import { LifeinsComponent } from './lifeins/lifeins.component';
 import { HealthinsComponent } from './healthins/healthins.component';
 import { IntroMfComponent } from './MyComponents/intro-mf/intro-mf.component';
-import { InflationComponent } from './Calculators/inflation/inflation.component';
-import { SipUtilComponent } from './Calculators/sip-util/sip-util.component';
 
 @NgModule({
   declarations: [
@@ -99,8 +97,6 @@ import { SipUtilComponent } from './Calculators/sip-util/sip-util.component';
     LifeinsComponent,
     HealthinsComponent,
     IntroMfComponent,
-    InflationComponent,
-    SipUtilComponent,
   ],
   imports: [
     BrowserModule,
