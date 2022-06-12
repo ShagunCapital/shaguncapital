@@ -11,13 +11,145 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 } */
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
-.mf p{
-  color: red;
+.mf .how-section1{
+    margin-top: 2px;
+    padding: 5%;
+    height: fit-content;
 }
-  
-.mf .textColor{
-  color: blue;
+.mf .how-section1 h4{
+    font-size: 40px;
+    font-weight: 700;
+    color: #1b1dc7;
+    margin-bottom: 16px;
+}
+.mf .how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+.mf .how-section1 .row
+{
+    margin-top: 3%;
+}
+.mf .how-img 
+{
+    text-align: center;
+}
+.mf .how-img img{
+    width: 40%;
+}
+.mf .buttonsave
+{
+    border-radius: 8px;
+    background: #1b1dc7;
+    padding: 18px 32px 18px 32px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-align: center;
+    float: left;
+    position: relative;
+}
+
+.lifeins .how-section1{
+  margin-top: 2px;
+  padding: 5%;
+  height: fit-content;
+}
+.lifeins .how-section1 h4{
+  font-size: 40px;
+  font-weight: 700;
+  color: #1b1dc7;
+  margin-bottom: 16px;
+}
+.lifeins .how-section1 .subheading{
+  color: #3931af;
+  font-size: 20px;
+}
+.lifeins .how-section1 .row
+{
+  margin-top: 3%;
+}
+.lifeins .how-img 
+{
+  text-align: center;
+}
+.lifeins .how-img img{
+  width: 40%;
+}
+.lifeins .buttonsave
+{
+  border-radius: 8px;
+  background: #1b1dc7;
+  padding: 18px 32px 18px 32px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+
+.healthins .how-section1{
+  margin-top: 2px;
+  padding: 5%;
+  height: fit-content;
+}
+.healthins .how-section1 h4{
+  font-size: 40px;
+  font-weight: 700;
+  color: #1b1dc7;
+  margin-bottom: 16px;
+}
+.healthins .how-section1 .subheading{
+  color: #3931af;
+  font-size: 20px;
+}
+.healthins .how-section1 .row
+{
+  margin-top: 3%;
+}
+.healthins .how-img 
+{
+  text-align: center;
+}
+.healthins .how-img img{
+  width: 40%;
+}
+.healthins .buttonsave
+{
+  border-radius: 8px;
+  background: #1b1dc7;
+  padding: 18px 32px 18px 32px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+.healthins .content
+{
+  padding-right: 30%;
+  padding-left: 3%;
+  /* width: fit-content; */
+}
+.lifeins .content
+{
+  padding-right: 30%;
+  padding-left: 3%;
+  /* width: fit-content; */
+}
+.mf .content
+{
+  padding-right: 30%;
+  padding-left: 3%;
+  /* width: fit-content; */
 }

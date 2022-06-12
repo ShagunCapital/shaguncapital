@@ -14,9 +14,9 @@ import { LifeinsComponent } from './lifeins.component';
 import { WealthbuilderComponent } from './wealthbuilder/wealthbuilder.component';
 import { ShortTermComponent } from './short-term/short-term.component';
 import { MarketLinkedComponent } from './market-linked/market-linked.component';
-import { HealthComponent } from './health/health.component';
+// import { HealthComponent } from './health/health.component';
 import { MarriageComponent } from './marriage/marriage.component';
-
+import {SipUtilComponent } from '../Calculators/sip-util/sip-util.component';
 
 const lifeInsRoutes: Routes = [
   {path: 'lifeins', children:[
@@ -32,7 +32,7 @@ const lifeInsRoutes: Routes = [
     { path: 'wealthbuilder', component: WealthbuilderComponent, },
     { path: 'short-term', component: ShortTermComponent },
     { path: 'market-linked', component: MarketLinkedComponent },
-    { path: 'health', component: HealthComponent },
+    // { path: 'health', component: HealthComponent },
     { path: 'marriage', component: MarriageComponent },
   ]},
 ]
@@ -50,8 +50,9 @@ const lifeInsRoutes: Routes = [
     WealthbuilderComponent,
     ShortTermComponent,
     MarketLinkedComponent,
-    HealthComponent,
+    // HealthComponent,
     MarriageComponent,
+    // SipUtilComponent
   ],
   imports: [
     CommonModule,
