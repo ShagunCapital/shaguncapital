@@ -221,4 +221,10 @@ label
     font-family: "Inter", sans-serif;
     color: #181818;
 }
+/* .normal, .track {
+    top: 0;
+    bottom: 0;
+    background: #d9d9d9;
+    border-radius: 999px;
+} */
 

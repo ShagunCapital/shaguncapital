@@ -1,0 +1,46 @@
+.how-section1{
+    margin-top: 2px;
+    padding: 5%;
+    height: fit-content;
+  }
+.how-section1 h4{
+    font-size: 40px;
+    font-weight: 700;
+    color: #1b1dc7;
+    margin-bottom: 16px;
+  }
+.how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+  }
+.how-section1 .row
+  {
+    margin-top: 3%;
+  }
+.how-img 
+  {
+    text-align: center;
+  }
+.how-img img{
+    width: 40%;
+  }
+.buttonsave
+  {
+    border-radius: 8px;
+    background: #1b1dc7;
+    padding: 18px 32px 18px 32px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-align: center;
+    float: left;
+    position: relative;
+  }
+.content
+  {
+    padding-right: 30%;
+    padding-left: 3%;
+    /* width: fit-content; */
+  }

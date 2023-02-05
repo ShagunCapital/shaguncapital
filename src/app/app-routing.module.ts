@@ -40,6 +40,8 @@ import { InsurancecalcComponent } from './MyComponents/insurancecalc/insuranceca
 import { InflationcalcComponent } from './MyComponents/inflationcalc/inflationcalc.component';
 import { IncometaxcalcComponent } from './MyComponents/incometaxcalc/incometaxcalc.component';
 import { IntroMfComponent } from './MyComponents/intro-mf/intro-mf.component';
+import { LoginComponent } from './utility/login/login.component';
+import { SignUpComponent } from './utility/sign-up/sign-up.component';
 
 const routes: Routes = [
   {
@@ -85,7 +87,9 @@ const routes: Routes = [
   { path: 'insurancecalc', component: InsurancecalcComponent },
   { path: 'inflationcalc', component: InflationcalcComponent },
   { path: 'incometaxcalc', component: IncometaxcalcComponent },
-  { path: 'intro-mf', component: IntroMfComponent},
+  { path: 'intro-mf', component: IntroMfComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'sign-up', component: SignUpComponent },
 ];
 
 @NgModule({

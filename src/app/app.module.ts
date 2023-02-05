@@ -4,7 +4,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { MfModule } from './mf/mf.module';
 import { LifeinsModule } from './lifeins/lifeins.module';
 import { HealthinsModule } from './healthins/healthins.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './MyComponents/header/header.component';
@@ -50,6 +51,13 @@ import { MfComponent } from './mf/mf.component';
 import { LifeinsComponent } from './lifeins/lifeins.component';
 import { HealthinsComponent } from './healthins/healthins.component';
 import { IntroMfComponent } from './MyComponents/intro-mf/intro-mf.component';
+import { LoginComponent } from './utility/login/login.component';
+import { SignUpComponent } from './utility/sign-up/sign-up.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+
 
 @NgModule({
   declarations: [
@@ -97,14 +105,21 @@ import { IntroMfComponent } from './MyComponents/intro-mf/intro-mf.component';
     LifeinsComponent,
     HealthinsComponent,
     IntroMfComponent,
+    LoginComponent,
+    SignUpComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     AppRoutingModule,
     MfModule,
     LifeinsModule,
-    HealthinsModule
+    HealthinsModule,
+    BrowserAnimationsModule,
+    MatInputModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth())
   ],
   providers: [],
   bootstrap: [AppComponent]

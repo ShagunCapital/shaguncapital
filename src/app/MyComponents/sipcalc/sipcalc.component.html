@@ -30,35 +30,36 @@
                 <div class='col-md-12 col-lg-5'>
                     <div class='pe-calculator-box ppf-calculator'>
                         <h2 class='pe-h2'>
-                            Inflation Calculator
+                            SIP Calculator
                         </h2>
                         <form>
                             <div class='form-group'>
-                                <label class='pe-label' for=''>Calculate the spending power of</label>
+                                <label class='pe-label' for=''>Monthly Investment Amount</label>
+                                <input aria-describedby='' class='form-control sb-comma-input pe-amount-input pe-box'
+                                    id='investmentAmount' maxlength='12' placeholder='Amount' type='text'
+                                    value='10,000'>
+                            </div>
+                            <div class='form-group'>
+                                <label class='pe-label' for=''>Expected Growth Rate</label>
+                                <input aria-describedby='' class='form-control sb-comma-input pe-amount-input pe-box'
+                                    id='rateOfReturn' maxlength='12' placeholder='Amount' type='text'
+                                    value='6.5%'>
+                            </div>
+                            <div class='form-group'>
+                                <label class='pe-label' for=''>Investment Duration</label>
+                                <input aria-describedby='' class='form-control sb-comma-input pe-amount-input pe-box'
+                                    id='investmentPeriod' maxlength='12' placeholder='Amount' type='text'
+                                    value='5 Years'>
+                            </div>
+                            <div class='form-group'>
+                                <label class='pe-label' for=''>Step Up</label>
                                 <input aria-describedby='' class='form-control sb-comma-input pe-amount-input pe-box'
                                     id='ppf-amount-input' maxlength='12' placeholder='Amount' type='text'
-                                    value='10,000'>
+                                    value='10%'>
                             </div>
                             <!-- <div class='inflation-error'>
                                 Amount should be greater than 0
                             </div> -->
-                            <div class='form-group'>
-                                <div class='row'>
-                                    <div class='col-6'>
-                                        <label class='pe-label' for=''>in Year</label>
-                                        <input class='form-control pe-box' id='inflation-year' maxlength='4'
-                                            pattern='\d*' required type='text' value='2010'>
-                                    </div>
-                                    <div class='col-6'>
-                                        <label class='pe-label' for=''>Compared to Year</label>
-                                        <input class='form-control pe-box' id='inflation-compare-year' maxlength='4'
-                                            pattern='\d*' required type='text' value='2040'>
-                                    </div>
-                                </div>
-                                <!-- <div class='inflation-year-error'>
-                                    Year should be between 1960-2060
-                                </div> -->
-                            </div>
                         </form>
                     </div>
                     <div class='inflation-input-box'>
@@ -125,11 +126,11 @@
                         <div class='row'>
                             <div class='col-md-7 col-lg-7 col-sm-7'>
                                 <div class='first-output-section'>
-                                    <p class='firsttext'>It would be</p>
+                                    <p class='firsttext'>After 5 years, you will have</p>
                                     <span class='output-js'>0</span>
                                     <p>
-                                        <i>The inflation rate for future is assumed basis the annual change in the past
-                                            years</i>
+                                        <i>that’s ₹ 9,94,951 as potential capital gains
+                                            on your investment of ₹ 58,60,896</i>
                                     </p>
                                 </div>
                             </div>
@@ -138,9 +139,12 @@
                                     <a class='sb-primary-cta-button offering-smooth-scroll-tag trigger-event j-trigger-mr cta-data-btn-js'
                                         data-action='CTAClick' data-category='Plan' data-label='inflation-calculator'
                                         href='/plan/sip-calculator?ref=organic-inflation-calculator' rel='nofollow'>
-                                        Estimate Returns
+                                        Start Investing Now
                                     </a>
                                 </div>
+                            </div>
+                            <div class='col-md-6 col-lg-6 col-sm-6'>
+                                <div id="chartContainer" style="width: 100%; height: 495px;"></div>
                             </div>
                         </div>
                     </div>
@@ -150,5 +154,35 @@
     </div>
 </section>
 
-
-
+<div class="contaniner">
+    <div class="content">
+        <br>
+        <h4><b>What is SIP Calculator?</b></h4>
+        <p>SIP (Systematic Investment Plan) Calculator is a financial tool that helps investors to calculate the future value of their investments made through SIP (Systematic Investment Plan). It takes into account the regular investment amount, the frequency of investment, and the expected rate of return to calculate the maturity value of the investment. This calculator is used to estimate the amount that an individual can accumulate by investing a fixed amount regularly over a specified period, which can help in planning for long-term financial goals.</p>
+        <br>
+        <h4><b>How does the SIP Calculator work?</b></h4>
+        <p>A SIP (Systematic Investment Plan) Calculator is a tool used to calculate the future value of regular investments made over a period of time, taking into account the effects of compound interest. It works by taking inputs such as the amount of investment, frequency of investment, and expected rate of return and calculates the estimated maturity value at the end of the investment period. The calculation is based on mathematical formulas that account for the compounding effect of interest over time. The output of the calculator provides an estimate of the future value of the investment, which can help investors make informed decisions about their investment portfolio.</p>
+        <br>
+        <h4><b>How is SIP return calculated?</b></h4>
+        <p>SIP (Systematic Investment Plan) return is calculated based on the underlying investment. If the investment is in equity mutual funds, the return is influenced by the performance of the stock market and the fund manager's investment strategy. If the investment is in debt funds, the return is influenced by the interest rate and credit risk. The actual return on SIP investment is the compounded return, which takes into account the principal amount, frequency of investment, and the rate of return over the investment period.</p>
+        <br>
+        <p>The formula for calculating SIP return is as follows:</p>
+        <p>R = (P * (1 + r/n)^(nt)) / P0</p>
+        <p>Where:</p>
+        <ul>
+            <li>R = Return on investment</li>
+            <li>P = Principal amount invested at the end of the investment period</li>
+            <li>r = Rate of return</li>
+            <li>n = Number of times the investment is compounded in a year</li>
+            <li>t = Number of years for which the investment is made</li>
+            <li>P0 = Principal amount invested at the beginning of the investment period</li>
+        </ul>
+        <p>For example, if you invest INR 5000 per month for 5 years at an annual return of 10%, the calculation for SIP return would be as follows:</p>
+        <p>R = (5000 * (1 + 0.10/12)^(12 * 5)) / (5000 * 12 * 5)</p>
+        <p>R = INR 3,43,633.35 / INR 3,00,000</p> 
+        <p>R = 1.14</p>
+        <br>
+        <p>This means that you would earn a return of 1.14 times your investment of INR 3,00,000, which would be INR 3,43,633.35.</p>
+        <p>It's important to note that the actual return may vary based on various factors such as market conditions, investment strategy, inflation, and taxes.</p>
+    </div>
+</div>

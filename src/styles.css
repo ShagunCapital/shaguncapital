@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 } */
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+/* @import url('https://fonts.googleapis.com/css?family=Nunito:400,700'); */
 
 .mf .how-section1{
     margin-top: 2px;
@@ -153,3 +153,54 @@ body {
   padding-left: 3%;
   /* width: fit-content; */
 }
+
+
+.MyComponents .how-section1{
+  margin-top: 2px;
+  padding: 5%;
+  height: fit-content;
+}
+.MyComponents .how-section1 h4{
+  font-size: 40px;
+  font-weight: 700;
+  color: #1b1dc7;
+  margin-bottom: 16px;
+}
+.MyComponents .how-section1 .subheading{
+  color: #3931af;
+  font-size: 20px;
+}
+.MyComponents .how-section1 .row
+{
+  margin-top: 3%;
+}
+.MyComponents .how-img 
+{
+  text-align: center;
+}
+.MyComponents .how-img img{
+  width: 40%;
+}
+.MyComponents .buttonsave
+{
+  border-radius: 8px;
+  background: #1b1dc7;
+  padding: 18px 32px 18px 32px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+.MyComponents .content
+{
+  padding-right: 30%;
+  padding-left: 3%;
+  /* width: fit-content; */
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
