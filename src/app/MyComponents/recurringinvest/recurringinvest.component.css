@@ -1,4 +1,4 @@
-.contanier
+/* .contanier
 {
     text-align: center;
     margin: auto;
@@ -6,4 +6,103 @@
     padding: 50px;
     font-family: 'Lexend Deca', sans-serif; 
     color: #2E475D;  
+} */
+
+
+
+
+
+
+
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+b, strong {
+    font-family: Mulish,sans-serif;
+    font-weight: 800;
+}
+
+.banner .rcolor, .more-link:hover, .more-link1:hover, .download-form:hover, .download-form:focus, .side-links:hover li a, .link-list li a:hover, .link1:hover a, .notice-box div a:hover, .download-form:hover, .r-txt:hover, .customer-type-slider li:hover, .rcolor, .jplist-panel .jplist-group label, .login-button>li.login-dropdown.active>a, .list-hold li.active a, .search-title:hover, .pagination .page-btn.active {
+    color: #0a529e;
+}
+
+.h2, h2 {
+    font-size: 24px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+@media (max-width: 991px){
+.reason li, .txt {
+    font-size: 1.1em;
+}}
+
+@media (max-width: 1199px){
+.txt {
+    font-size: 1.1em;
+}}
+
+.txt {
+    color: #444;
+    font-weight: 100;
+    font-size: 1.1em;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media (max-width: 1199px){
+.infov2 {
+    padding: 30px 0;
+}}
+
+.infov2 {
+    padding: 40px 0;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.importance, .claim-settlement {
+    background-color: #f1f2f2;
 }
